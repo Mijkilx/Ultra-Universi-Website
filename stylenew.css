@@ -1,0 +1,104 @@
+
+body{
+    background-image: url("images/lowerlevelbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(216, 198, 198);
+    font-size: 100px;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(216, 198, 198);
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Georgia,"Times New Roman",serif;
+    color:rgb(216, 198, 198);
+    font-size: 20px;
+}
+
+
+
+
+#imagefront {
+    size:50%;
+    min-width: 50%;
+    opacity: 75%;
+}
+
+#imagex {
+    size:50%;
+    min-width: 50%;
+    opacity: 75%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+    
+}
+
+.box {
+    display: flex;
+    color: rgb(216, 198, 198);
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+
+    /*width: 33.3%;*/
+    /*
+    width: 400px;
+    */
+}
+     
+/* Colours for each box */
+
+.box1 { background: linear-gradient(to right, rgba(255, 0, 0, 0),rgb(102, 94, 94)); }
+.box2 { background: linear-gradient(to right, rgb(102, 94, 94),rgba(255,0,0,0)); }
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+a{
+    color: #84929e;
+}
+
+
+.navbar a:hover{
+    color: rgb(216, 198, 198);
+}
+
+.title {
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.legal a:hover{
+    color: rgb(216, 198, 198);
+}
